@@ -34,8 +34,8 @@
     <!-- header section strats -->
     <header class="header_section">
       <div class="container">
-        <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
+        <nav class="navbar navbar-expand-lg fixed-top custom_nav-container ">
+          <a class="navbar-brand" href="#home">
             <img src="images/logo-1.png" alt="">
             <span>
               ESTU SAE PUMP
@@ -51,19 +51,16 @@
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
               <ul class="navbar-nav  ">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html"> About</a>
+                  <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#service"> Service </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="blog.html"> Blog </a>
+                  <a class="nav-link" href="#dokumentasi"> Dokumentasi </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact </a>
+                  <a class="nav-link" href="#hubungi"> Hubungi </a>
                 </li>
               </ul>
             </div>
@@ -72,8 +69,9 @@
       </div>
     </header>
     <!-- end header section -->
+
     <!-- slider section -->
-    <section class=" slider_section ">
+    <section class=" slider_section " id="home">
       <div class="container">
         <div class="row">
           <div class="col-md-6 ">
@@ -227,7 +225,7 @@
   <!-- end service section -->
 
   <!-- about section -->
-  <section class="about_section layout_padding">
+  <!-- <section class="about_section layout_padding">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -264,7 +262,7 @@
 
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- end about section -->
 
@@ -273,7 +271,7 @@
 
   <!-- blog section -->
 
-  <section class="blog_section layout_padding">
+  <section class="blog_section about_section layout_padding" id="dokumentasi">
     <div class="container">
       <div class="heading_container">
         <h2>
@@ -322,7 +320,7 @@
 
   <!-- contact section -->
 
-  <section class="contact_section layout_padding">
+  <section class="contact_section layout_padding" id="hubungi">
     <div class="container ">
       <div class="heading_container">
         <h2>
@@ -460,6 +458,7 @@
 
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
+  <script src="js/navbar.js"></script>
 
 </body>
 
